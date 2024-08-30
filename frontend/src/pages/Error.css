@@ -1,0 +1,36 @@
+.error {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.error p {
+    margin-bottom: 20px;
+}
+
+.klaida img{
+  width: 150px; 
+  height: auto; 
+}
+
+.alone img{
+  width: 300px; 
+  height: auto; 
+  margin-top: 20px; 
+}
+
+.go_home {
+  margin-top: 20px; 
+  padding: 10px 20px; 
+  background-color: rgb(7, 60, 7); 
+  color: #fff; 
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  text-decoration: none;
+}
+
+.go_home:hover {
+  background-color: #33b73b; 
+}

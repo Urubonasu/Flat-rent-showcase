@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+.intro {
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: #f6f6f6;
+  padding: 50px 20px;
+}
+
+.gen {
+  margin-top: 50px;
+  width: 80%;
+}
+
+.intro h1 {
+  font-size: 36px;
+  margin-bottom: 30px
+  
+}
+
+.intro p {
+  margin-bottom: 30px;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  width: 80%; /* Set paragraph width to 100% */
+  max-width: 80%; /* Ensure paragraph does not exceed the image width */
+}
+
+.history{
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+}
+
+.team {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card-komanda {
+  width: 150px; 
+  margin: 20px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.info {
+  padding: 10px; 
+}
+.info p {
+  margin-bottom: 10px; /* Adjust spacing between paragraphs */
+}
+
+.info svg {
+  margin-right: 5px; /* Add some spacing between the icon and text */
+  vertical-align: middle; /* Align the icon vertically with the text */
+}
+
+.contact {
+  color: #666;
+  font-size: 16px; /* Adjust the font size */
+}
+
+
+.name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.contact {
+  color: #666;
+}
+
+.atsiliepimai {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px; 
+}
+
+.myname{
+  text-align: center;
+  align-items: center;
+}
+
+
+@media (max-width: 768px) {
+  .intro {
+    padding: 50px 10px;
+  }
+
+  .card-komanda {
+    width: 120px;
+    margin: 10px; 
+  }
+
+  .info {
+    padding: 5px; 
+  }
+
+  .atsiliepimai {
+    flex-direction: column; 
+    margin-top: 10px; 
+  }
+}
